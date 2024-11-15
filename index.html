@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Madera Shopping</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <header>
+        <h2><a href="#" class="logo"><img src="WhatsApp_Image_2024-11-14_at_16.49.18_24a11f28-removebg-preview.png" alt="Logo"></a></h2>
+        <div class="navbar">
+            <a href="#" class="active">Tableaux</a>
+            <a href="#">GAMES</a>
+            <a href="#">Shelves</a>
+            <a href="#">Others</a>
+        </div>
+        <div class="header-icon">
+            <div class="search-icon" onclick="toggleSearchBar()">
+                <img src="search-icon-white-png-24-removebg-preview.png" alt="Search" width="20px">
+            </div>
+        </div>
+    </header>
+    <div class="search-bar-container">
+        <input type="text" id="searchInput" placeholder="Search..." oninput="searchItems()">
+    </div>
+    
+    
+    <section class="sec">
+        <div class="card">
+            <div class="img">
+                <img src="WhatsApp Image 2024-11-14 at 15.53.36_a5b6a3c7.jpg" alt="Product Image">
+            </div>
+            <div class="title">Sleeping Panda</div>
+            <div class="price">570 L.E</div>
+            <div class="icon"><a href="#" onclick="addToCart()"><img src="basket-solid-24.png" alt="Add to Cart"></a></div> 
+        </div>
+        
+        <div class="card">
+            <div class="img">
+                <img src="WhatsApp Image 2024-11-14 at 14.40.42_1e5a6f4f.jpg" alt="Product Image">
+            </div>
+            <div class="title">Butterfly Tableaux</div>
+            <div class="price">320 L.E</div>
+            <div class="icon"><a href="#" onclick="addToCart()"><img src="basket-solid-24.png" alt="Add to Cart"></a></div> 
+        </div>
+        <div class="card">
+            <div class="img">
+                <img src="WhatsApp Image 2024-11-14 at 14.22.59_b6788ee3.jpg" alt="Product Image">
+            </div>
+            <div class="title">Dear Head</div>
+            <div class="price">400 L.E</div>
+            <div class="icon"><a href="#" onclick="addToCart()"><img src="basket-solid-24.png" alt="Add to Cart"></a></div> 
+        </div>
+        <div class="card">
+            <div class="img">
+                <img src="WhatsApp Image 2024-11-14 at 14.35.07_1cf07043.jpg" alt="Product Image">
+            </div>
+            <div class="title">Horse Tableaux</div>
+            <div class="price">750 L.E</div>
+            <div class="icon"><a href="#" onclick="addToCart()"><img src="basket-solid-24.png" alt="Add to Cart"></a></div> 
+        </div>
+        <div class="card">
+            <div class="img">
+                <img src="WhatsApp Image 2024-11-14 at 16.00.31_a61dcafa.jpg" alt="Product Image">
+            </div>
+            <div class="title">Galloping Horse</div>
+            <div class="price">520 L.E</div>
+            <div class="icon"><a href="#" onclick="addToCart()"><img src="basket-solid-24.png" alt="Add to Cart"></a></div> 
+        </div>
+        <div class="card">
+            <div class="img">
+                <img src="WhatsApp Image 2024-11-14 at 15.34.20_12041a33.jpg" alt="Product Image">
+            </div>
+            <div class="title">Cowboy Tableaux</div>
+            <div class="price">800 L.E</div>
+            <div class="icon"><a href="#" onclick="addToCart()"><img src="basket-solid-24.png" alt="Add to Cart"></a></div> 
+        </div>
+        <div class="card">
+            <div class="img">
+                <img src="WhatsApp Image 2024-11-14 at 15.30.40_41e54720.jpg" alt="Product Image">
+            </div>
+            <div class="title">Boho Tableaux</div>
+            <div class="price">650 L.E</div>
+            <div class="icon"><a href="#" onclick="addToCart()"><img src="basket-solid-24.png" alt="Add to Cart"></a></div> 
+        </div>
+        <div class="card">
+            <div class="img">
+                <img src="WhatsApp Image 2024-11-14 at 18.02.00_68a953dd.jpg" alt="Product Image">
+            </div>
+            <div class="title">Dear Tableaux </div>
+            <div class="price">340 L.E</div>
+            <div class="icon"><a href="#" onclick="addToCart()"><img src="basket-solid-24.png" alt="Add to Cart"></a></div> 
+        </div>
+        <div class="card">
+            <div class="img">
+                <img src="WhatsApp Image 2024-11-14 at 18.02.34_19506c17.jpg" alt="Product Image">
+            </div>
+            <div class="title">Dream Catcher </div>
+            <div class="price">350 L.E</div>
+            <div class="icon"><a href="#" onclick="addToCart()"><img src="basket-solid-24.png" alt="Add to Cart"></a></div> 
+        </div>
+        <div class="card">
+            <div class="img">
+                <img src="WhatsApp Image 2024-11-14 at 18.41.27_06ea2509.jpg" alt="Product Image">
+            </div>
+            <div class="title">Cat Tableaux </div>
+            <div class="price">400 L.E</div>
+            <div class="icon"><a href="#" onclick="addToCart()"><img src="basket-solid-24.png" alt="Add to Cart"></a></div> 
+        </div>
+    </section>
+  
+    <div class="notification">Item added to cart</div>
+   
+   <script src="script.js"></script>
+</body>
+</html>
